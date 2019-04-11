@@ -11,6 +11,7 @@ class BoxController{
             path:"files",
             options:{sort:{createdAt: -1}}
         });
+		return res.json(box);
 
     }
 }
